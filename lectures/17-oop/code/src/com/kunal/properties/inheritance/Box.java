@@ -1,13 +1,14 @@
 package com.kunal.properties.inheritance;
 
 public class Box {
-    private double l;
+     double l;
     double h;
     double w;
 //    double weight;
 
     static void greeting() {
         System.out.println("Hey, I am in Box class. Greetings!");
+        System.out.println();
     }
 
     public double getL() {
