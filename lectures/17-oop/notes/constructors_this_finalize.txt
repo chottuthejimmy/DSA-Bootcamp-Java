@@ -69,5 +69,5 @@ then the derived class must call its super class constructor. It is done by defa
 If it does not have a default constructor in the derived class, the JVM will invoke its default constructor and call
 the super class constructor by default. If we have a parameterised constructor in the derived class still it calls the
 default super class constructor by default. In this case, if the super class does not have a default constructor,
-instead it has a parameterised constructor, then the derived class constructor should call explicitly call the
+instead it has a parameterised constructor, then the derived class constructor should explicitly call the
 parameterised super class constructor.
