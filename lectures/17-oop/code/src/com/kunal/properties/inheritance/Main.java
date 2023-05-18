@@ -33,5 +33,8 @@ System.out.println(Box15.weight);
 
         BoxWeight box = new BoxWeight();
         BoxWeight.greeting(); // you can inherit but you cannot override
+        Box box5 = new BoxWeight();
+        System.out.println(box5.w);
+
     }
 }
